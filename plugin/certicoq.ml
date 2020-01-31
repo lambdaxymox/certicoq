@@ -69,10 +69,7 @@ Valid options:\n\
 -time   :  Time each compilation phase\n\
 -o1     :  Perform more aggressive optimizations (currently unboxing of closure environments)\n\
 -bebug  :  Show debugging information\n\
--args X :  Specify how many arguments are used in the C translation (on top of the thread_info argument)\n\
-\n\
-To show this help message type:\n\
-CertiCoq -help.\n"
+-args X :  Specify how many arguments are used in the C translation (on top of the thread_info argument)\n"
 
 
 let make_options (l : command_args list) : options =
